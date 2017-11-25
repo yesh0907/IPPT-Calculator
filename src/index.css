@@ -17,3 +17,27 @@
   padding: 24px;
   min-height: 280px;
 }
+
+.form-label {
+  margin: 30px 15px 0px 10px;
+}
+
+.colon {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+#calculator {
+  display: flex;
+  justify-content: center;
+}
+
+#calculate {
+  width: 50px;
+  height: 48px;
+  margin: 24px 15px 0px 10px;
+}
+
+i.anticon.anticon-calculator {
+  font-size: 30px;
+}

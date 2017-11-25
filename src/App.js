@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Layout, Menu } from 'antd';
-import Calculator from './Components/Calculator';
+import { Layout } from 'antd';
+import Calculator from './components/Calculator';
 
 const { Header, Content, Footer } = Layout;
 
@@ -16,7 +16,6 @@ class App extends Component {
             <Calculator />
           </div>
         </Content>
-
         <Footer className="footer">
           Max Huang &copy; Created by Yesh Chandiramani
         </Footer>
