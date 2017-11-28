@@ -20,7 +20,7 @@ class Calculator extends Component {
       if (score >= 90) result = (<h1>Commando/Guards Gold!<br />Score: <b>{score}</b></h1>);
       else if (score >= 85) result = (<h1>You got Gold!<br />Score: <b>{score}</b></h1>);
       else if (score >= 75) result = (<h1>You got Silver!<br />Score: <b>{score}</b></h1>);
-      else if (score >= 61) result = (<h1>You Passed (skip IPPT lah)!<br />Score: <b>{score}</b></h1>);
+      else if (score >= 61) result = (<h1>You Passed (skip PTP lah)!<br />Score: <b>{score}</b></h1>);
       else result = (<h1>You Failed :(<br />Score: <b>{score}</b></h1>)
     }
 

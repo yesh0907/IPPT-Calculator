@@ -17,7 +17,7 @@ class App extends Component {
           </div>
         </Content>
         <Footer className="footer">
-          Max Huang &copy; Created by Yesh Chandiramani
+          Created by Yesh Chandiramani
         </Footer>
       </Layout>
     );
